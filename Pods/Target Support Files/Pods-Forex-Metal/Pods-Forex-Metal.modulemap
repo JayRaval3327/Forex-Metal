@@ -1,0 +1,6 @@
+framework module Pods_Forex_Metal {
+  umbrella header "Pods-Forex-Metal-umbrella.h"
+
+  export *
+  module * { export * }
+}

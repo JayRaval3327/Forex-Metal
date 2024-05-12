@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    private var adapter: RateSpotAdapter
+    
+    init() {
+        self.adapter = NetworkAdapter()
+    }
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -15,6 +22,9 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+//        .task {
+//            await adapter.getSportsRate()
+//        }
         .padding()
     }
 }

@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9337C79C2BDF46360090A5FE /* ToDoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9337C79B2BDF46360090A5FE /* ToDoEndpoint.swift */; };
 		93ADC1142BD73708006AAAE8 /* Forex_MetalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC1132BD73708006AAAE8 /* Forex_MetalApp.swift */; };
 		93ADC1162BD73708006AAAE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC1152BD73708006AAAE8 /* ContentView.swift */; };
 		93ADC1182BD73709006AAAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ADC1172BD73709006AAAE8 /* Assets.xcassets */; };
 		93ADC11B2BD73709006AAAE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ADC11A2BD73709006AAAE8 /* Preview Assets.xcassets */; };
 		93ADC1232BD740EC006AAAE8 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC1222BD740EC006AAAE8 /* NetworkAdapter.swift */; };
-		93ADC12A2BD77DAA006AAAE8 /* ToDoAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC1292BD77DAA006AAAE8 /* ToDoAdapter.swift */; };
+		93E4D9A92BF153A200A978A2 /* ErrorDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9A42BF153A200A978A2 /* ErrorDisplayable.swift */; };
+		93E4D9AA2BF153A200A978A2 /* ResultState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9A52BF153A200A978A2 /* ResultState.swift */; };
+		93E4D9AB2BF153A200A978A2 /* ResultStateViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9A62BF153A200A978A2 /* ResultStateViewBuilder.swift */; };
+		93E4D9AC2BF153A200A978A2 /* StandardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9A72BF153A200A978A2 /* StandardViews.swift */; };
+		93E4D9AF2BF1547100A978A2 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9AE2BF1547100A978A2 /* Spots.swift */; };
+		93E4D9B22BF1551F00A978A2 /* RateSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9B12BF1551F00A978A2 /* RateSpot.swift */; };
+		93E4D9B42BF1558200A978A2 /* RateSpotAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9B32BF1558200A978A2 /* RateSpotAdapter.swift */; };
 		93F26A072BE5BC8D0081D035 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F26A062BE5BC8D0081D035 /* Requestable.swift */; };
 		93F26A092BE5BCF40081D035 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F26A082BE5BCF40081D035 /* HttpMethod.swift */; };
 		93F26A0B2BE5BD890081D035 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F26A0A2BE5BD890081D035 /* NetworkError.swift */; };
@@ -24,14 +29,19 @@
 /* Begin PBXFileReference section */
 		153FEEFB24F9DB9E25643B02 /* Pods_Forex_Metal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forex_Metal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC808296B0E9803D6B616F8 /* Pods-Forex-Metal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forex-Metal.debug.xcconfig"; path = "Target Support Files/Pods-Forex-Metal/Pods-Forex-Metal.debug.xcconfig"; sourceTree = "<group>"; };
-		9337C79B2BDF46360090A5FE /* ToDoEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoEndpoint.swift; sourceTree = "<group>"; };
 		93ADC1102BD73708006AAAE8 /* Forex-Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forex-Metal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93ADC1132BD73708006AAAE8 /* Forex_MetalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_MetalApp.swift; sourceTree = "<group>"; };
 		93ADC1152BD73708006AAAE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93ADC1172BD73709006AAAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93ADC11A2BD73709006AAAE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93ADC1222BD740EC006AAAE8 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
-		93ADC1292BD77DAA006AAAE8 /* ToDoAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAdapter.swift; sourceTree = "<group>"; };
+		93E4D9A42BF153A200A978A2 /* ErrorDisplayable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDisplayable.swift; sourceTree = "<group>"; };
+		93E4D9A52BF153A200A978A2 /* ResultState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultState.swift; sourceTree = "<group>"; };
+		93E4D9A62BF153A200A978A2 /* ResultStateViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultStateViewBuilder.swift; sourceTree = "<group>"; };
+		93E4D9A72BF153A200A978A2 /* StandardViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardViews.swift; sourceTree = "<group>"; };
+		93E4D9AE2BF1547100A978A2 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		93E4D9B12BF1551F00A978A2 /* RateSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateSpot.swift; sourceTree = "<group>"; };
+		93E4D9B32BF1558200A978A2 /* RateSpotAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateSpotAdapter.swift; sourceTree = "<group>"; };
 		93F26A062BE5BC8D0081D035 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		93F26A082BE5BCF40081D035 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		93F26A0A2BE5BD890081D035 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -80,14 +90,15 @@
 		93ADC1122BD73708006AAAE8 /* Forex-Metal */ = {
 			isa = PBXGroup;
 			children = (
-				93ADC1282BD779CB006AAAE8 /* Endpoints */,
 				93ADC1212BD73D52006AAAE8 /* Networking */,
+				93E4D9A82BF153A200A978A2 /* Utils */,
+				93E4D9AD2BF1545300A978A2 /* Models */,
+				93ADC1282BD779CB006AAAE8 /* Endpoints */,
+				93E4D9B02BF154C300A978A2 /* Adapters */,
 				93ADC1132BD73708006AAAE8 /* Forex_MetalApp.swift */,
 				93ADC1152BD73708006AAAE8 /* ContentView.swift */,
 				93ADC1172BD73709006AAAE8 /* Assets.xcassets */,
 				93ADC1192BD73709006AAAE8 /* Preview Content */,
-				93ADC1292BD77DAA006AAAE8 /* ToDoAdapter.swift */,
-				9337C79B2BDF46360090A5FE /* ToDoEndpoint.swift */,
 			);
 			path = "Forex-Metal";
 			sourceTree = "<group>";
@@ -115,8 +126,36 @@
 		93ADC1282BD779CB006AAAE8 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
+				93E4D9B12BF1551F00A978A2 /* RateSpot.swift */,
 			);
 			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		93E4D9A82BF153A200A978A2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D9A42BF153A200A978A2 /* ErrorDisplayable.swift */,
+				93E4D9A52BF153A200A978A2 /* ResultState.swift */,
+				93E4D9A62BF153A200A978A2 /* ResultStateViewBuilder.swift */,
+				93E4D9A72BF153A200A978A2 /* StandardViews.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93E4D9AD2BF1545300A978A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D9AE2BF1547100A978A2 /* Spots.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93E4D9B02BF154C300A978A2 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D9B32BF1558200A978A2 /* RateSpotAdapter.swift */,
+			);
+			path = Adapters;
 			sourceTree = "<group>";
 		};
 		A2981DF6B5698EE67761CD0E /* Pods */ = {
@@ -242,15 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93ADC12A2BD77DAA006AAAE8 /* ToDoAdapter.swift in Sources */,
+				93E4D9AF2BF1547100A978A2 /* Spots.swift in Sources */,
+				93E4D9AB2BF153A200A978A2 /* ResultStateViewBuilder.swift in Sources */,
+				93E4D9B42BF1558200A978A2 /* RateSpotAdapter.swift in Sources */,
 				93F26A0B2BE5BD890081D035 /* NetworkError.swift in Sources */,
-				9337C79C2BDF46360090A5FE /* ToDoEndpoint.swift in Sources */,
 				93ADC1232BD740EC006AAAE8 /* NetworkAdapter.swift in Sources */,
+				93E4D9AA2BF153A200A978A2 /* ResultState.swift in Sources */,
 				93F26A092BE5BCF40081D035 /* HttpMethod.swift in Sources */,
+				93E4D9B22BF1551F00A978A2 /* RateSpot.swift in Sources */,
+				93E4D9A92BF153A200A978A2 /* ErrorDisplayable.swift in Sources */,
 				93F26A112BE5CC2B0081D035 /* Server.swift in Sources */,
 				93F26A072BE5BC8D0081D035 /* Requestable.swift in Sources */,
 				93ADC1162BD73708006AAAE8 /* ContentView.swift in Sources */,
 				93ADC1142BD73708006AAAE8 /* Forex_MetalApp.swift in Sources */,
+				93E4D9AC2BF153A200A978A2 /* StandardViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
