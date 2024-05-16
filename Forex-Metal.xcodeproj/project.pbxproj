@@ -19,6 +19,18 @@
 		93E4D9AF2BF1547100A978A2 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9AE2BF1547100A978A2 /* Spots.swift */; };
 		93E4D9B22BF1551F00A978A2 /* RateSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9B12BF1551F00A978A2 /* RateSpot.swift */; };
 		93E4D9B42BF1558200A978A2 /* RateSpotAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9B32BF1558200A978A2 /* RateSpotAdapter.swift */; };
+		93E4D9B82BF5DAA400A978A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9B72BF5DAA400A978A2 /* HomeView.swift */; };
+		93E4D9BA2BF5DABD00A978A2 /* SpotRateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9B92BF5DABD00A978A2 /* SpotRateItem.swift */; };
+		93E4D9C12BF5DF0600A978A2 /* cambriab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E4D9BB2BF5DF0600A978A2 /* cambriab.ttf */; };
+		93E4D9C22BF5DF0600A978A2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E4D9BC2BF5DF0600A978A2 /* Nunito-Bold.ttf */; };
+		93E4D9C32BF5DF0600A978A2 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E4D9BD2BF5DF0600A978A2 /* Nunito-Light.ttf */; };
+		93E4D9C42BF5DF0600A978A2 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E4D9BE2BF5DF0600A978A2 /* Nunito-Regular.ttf */; };
+		93E4D9C52BF5DF0600A978A2 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E4D9BF2BF5DF0600A978A2 /* Nunito-SemiBold.ttf */; };
+		93E4D9C82BF5DF7300A978A2 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9C72BF5DF7300A978A2 /* CustomFonts.swift */; };
+		93E4D9CA2BF5DFFF00A978A2 /* Extension+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9C92BF5DFFF00A978A2 /* Extension+Font.swift */; };
+		93E4D9CC2BF5E4BF00A978A2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9CB2BF5E4BF00A978A2 /* HomeViewModel.swift */; };
+		93E4D9CE2BF5E5EE00A978A2 /* SpotRateDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9CD2BF5E5EE00A978A2 /* SpotRateDisplayable.swift */; };
+		93E4D9D02BF5FF3500A978A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E4D9CF2BF5FF3500A978A2 /* Extensions.swift */; };
 		93F26A072BE5BC8D0081D035 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F26A062BE5BC8D0081D035 /* Requestable.swift */; };
 		93F26A092BE5BCF40081D035 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F26A082BE5BCF40081D035 /* HttpMethod.swift */; };
 		93F26A0B2BE5BD890081D035 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F26A0A2BE5BD890081D035 /* NetworkError.swift */; };
@@ -42,6 +54,19 @@
 		93E4D9AE2BF1547100A978A2 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		93E4D9B12BF1551F00A978A2 /* RateSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateSpot.swift; sourceTree = "<group>"; };
 		93E4D9B32BF1558200A978A2 /* RateSpotAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateSpotAdapter.swift; sourceTree = "<group>"; };
+		93E4D9B72BF5DAA400A978A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93E4D9B92BF5DABD00A978A2 /* SpotRateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotRateItem.swift; sourceTree = "<group>"; };
+		93E4D9BB2BF5DF0600A978A2 /* cambriab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cambriab.ttf; sourceTree = "<group>"; };
+		93E4D9BC2BF5DF0600A978A2 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		93E4D9BD2BF5DF0600A978A2 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		93E4D9BE2BF5DF0600A978A2 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		93E4D9BF2BF5DF0600A978A2 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		93E4D9C62BF5DF1D00A978A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93E4D9C72BF5DF7300A978A2 /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		93E4D9C92BF5DFFF00A978A2 /* Extension+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Font.swift"; sourceTree = "<group>"; };
+		93E4D9CB2BF5E4BF00A978A2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		93E4D9CD2BF5E5EE00A978A2 /* SpotRateDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotRateDisplayable.swift; sourceTree = "<group>"; };
+		93E4D9CF2BF5FF3500A978A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		93F26A062BE5BC8D0081D035 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		93F26A082BE5BCF40081D035 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		93F26A0A2BE5BD890081D035 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -90,6 +115,9 @@
 		93ADC1122BD73708006AAAE8 /* Forex-Metal */ = {
 			isa = PBXGroup;
 			children = (
+				93E4D9C62BF5DF1D00A978A2 /* Info.plist */,
+				93E4D9C02BF5DF0600A978A2 /* AppFonts */,
+				93E4D9B52BF5DA8300A978A2 /* Scenes */,
 				93ADC1212BD73D52006AAAE8 /* Networking */,
 				93E4D9A82BF153A200A978A2 /* Utils */,
 				93E4D9AD2BF1545300A978A2 /* Models */,
@@ -138,6 +166,9 @@
 				93E4D9A52BF153A200A978A2 /* ResultState.swift */,
 				93E4D9A62BF153A200A978A2 /* ResultStateViewBuilder.swift */,
 				93E4D9A72BF153A200A978A2 /* StandardViews.swift */,
+				93E4D9C72BF5DF7300A978A2 /* CustomFonts.swift */,
+				93E4D9C92BF5DFFF00A978A2 /* Extension+Font.swift */,
+				93E4D9CF2BF5FF3500A978A2 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -156,6 +187,37 @@
 				93E4D9B32BF1558200A978A2 /* RateSpotAdapter.swift */,
 			);
 			path = Adapters;
+			sourceTree = "<group>";
+		};
+		93E4D9B52BF5DA8300A978A2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D9B62BF5DA9000A978A2 /* HomeView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		93E4D9B62BF5DA9000A978A2 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D9B72BF5DAA400A978A2 /* HomeView.swift */,
+				93E4D9B92BF5DABD00A978A2 /* SpotRateItem.swift */,
+				93E4D9CB2BF5E4BF00A978A2 /* HomeViewModel.swift */,
+				93E4D9CD2BF5E5EE00A978A2 /* SpotRateDisplayable.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		93E4D9C02BF5DF0600A978A2 /* AppFonts */ = {
+			isa = PBXGroup;
+			children = (
+				93E4D9BB2BF5DF0600A978A2 /* cambriab.ttf */,
+				93E4D9BC2BF5DF0600A978A2 /* Nunito-Bold.ttf */,
+				93E4D9BD2BF5DF0600A978A2 /* Nunito-Light.ttf */,
+				93E4D9BE2BF5DF0600A978A2 /* Nunito-Regular.ttf */,
+				93E4D9BF2BF5DF0600A978A2 /* Nunito-SemiBold.ttf */,
+			);
+			path = AppFonts;
 			sourceTree = "<group>";
 		};
 		A2981DF6B5698EE67761CD0E /* Pods */ = {
@@ -227,7 +289,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E4D9C52BF5DF0600A978A2 /* Nunito-SemiBold.ttf in Resources */,
+				93E4D9C42BF5DF0600A978A2 /* Nunito-Regular.ttf in Resources */,
 				93ADC11B2BD73709006AAAE8 /* Preview Assets.xcassets in Resources */,
+				93E4D9C32BF5DF0600A978A2 /* Nunito-Light.ttf in Resources */,
+				93E4D9C12BF5DF0600A978A2 /* cambriab.ttf in Resources */,
+				93E4D9C22BF5DF0600A978A2 /* Nunito-Bold.ttf in Resources */,
 				93ADC1182BD73709006AAAE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,20 +348,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E4D9CC2BF5E4BF00A978A2 /* HomeViewModel.swift in Sources */,
 				93E4D9AF2BF1547100A978A2 /* Spots.swift in Sources */,
 				93E4D9AB2BF153A200A978A2 /* ResultStateViewBuilder.swift in Sources */,
 				93E4D9B42BF1558200A978A2 /* RateSpotAdapter.swift in Sources */,
+				93E4D9D02BF5FF3500A978A2 /* Extensions.swift in Sources */,
+				93E4D9B82BF5DAA400A978A2 /* HomeView.swift in Sources */,
+				93E4D9CA2BF5DFFF00A978A2 /* Extension+Font.swift in Sources */,
 				93F26A0B2BE5BD890081D035 /* NetworkError.swift in Sources */,
 				93ADC1232BD740EC006AAAE8 /* NetworkAdapter.swift in Sources */,
 				93E4D9AA2BF153A200A978A2 /* ResultState.swift in Sources */,
 				93F26A092BE5BCF40081D035 /* HttpMethod.swift in Sources */,
 				93E4D9B22BF1551F00A978A2 /* RateSpot.swift in Sources */,
 				93E4D9A92BF153A200A978A2 /* ErrorDisplayable.swift in Sources */,
+				93E4D9C82BF5DF7300A978A2 /* CustomFonts.swift in Sources */,
 				93F26A112BE5CC2B0081D035 /* Server.swift in Sources */,
 				93F26A072BE5BC8D0081D035 /* Requestable.swift in Sources */,
 				93ADC1162BD73708006AAAE8 /* ContentView.swift in Sources */,
 				93ADC1142BD73708006AAAE8 /* Forex_MetalApp.swift in Sources */,
+				93E4D9BA2BF5DABD00A978A2 /* SpotRateItem.swift in Sources */,
 				93E4D9AC2BF153A200A978A2 /* StandardViews.swift in Sources */,
+				93E4D9CE2BF5E5EE00A978A2 /* SpotRateDisplayable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +507,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Forex-Metal/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +539,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Forex-Metal/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

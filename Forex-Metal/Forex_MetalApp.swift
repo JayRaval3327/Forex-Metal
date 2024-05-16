@@ -14,7 +14,7 @@ struct Forex_MetalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(viewModel: HomeViewModel(adapter: NetworkAdapter()))
         }
         
     }

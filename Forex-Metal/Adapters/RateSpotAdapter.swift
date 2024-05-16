@@ -9,15 +9,14 @@ import Foundation
 import Alamofire
 
 protocol RateSpotAdapter {
-    func getSportsRate() async -> Result<SpotRates, ErrorDisplayable>
+    func getSportsRate() async -> Result<SpotRateDisplayables, ErrorDisplayable>
 }
 
 extension NetworkAdapter: RateSpotAdapter {
-    func getSportsRate() async -> Result<SpotRates, ErrorDisplayable> {
+    func getSportsRate() async -> Result<SpotRateDisplayables, ErrorDisplayable> {
         do {
             let rates = try await sendRequest(for: RateSpot.getAll, responseModel: Spots.self)
-            print(rates.data)
-            return .success(rates.data)
+            return .success(rates.data.map({ .init(rate: $0) }))
         } catch {
             return .failure(ErrorDisplayable(error))
         }
